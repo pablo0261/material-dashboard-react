@@ -18,8 +18,10 @@
     "@emotion/styled": "11.10.8",
     "@mui/icons-material": "5.11.16",
     "@mui/material": "5.12.3",
+    "ajv": "^8.12.0",
     "chart.js": "4.3.0",
     "chroma-js": "2.4.2",
+    "eslint-config-react-app": "^7.0.1",
     "prop-types": "15.8.1",
     "react": "18.2.0",
     "react-chartjs-2": "5.2.0",
@@ -30,10 +32,11 @@
     "react-table": "7.8.0",
     "stylis": "4.1.4",
     "stylis-plugin-rtl": "2.1.1",
+    "typescript": "^5.3.3",
     "yup": "1.1.1"
   },
   "scripts": {
-    "start": "GENERATE_SOURCEMAP=false react-scripts start",
+    "start": "react-scripts start --GENERATE_SOURCEMAP=false",
     "build": "GENERATE_SOURCEMAP=false react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
@@ -58,7 +61,7 @@
     ]
   },
   "devDependencies": {
-    "eslint": "8.39.0",
+    "eslint": "^8.56.0",
     "eslint-config-prettier": "8.8.0",
     "eslint-plugin-import": "2.27.5",
     "eslint-plugin-jsx-a11y": "6.7.1",
